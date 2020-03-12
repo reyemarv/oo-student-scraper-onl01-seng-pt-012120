@@ -16,7 +16,7 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-    self.send("name=", attributes_has[:name])
+    self.send("name=", attrtibutes_has[:name])
       
   end
 
