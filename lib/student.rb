@@ -17,7 +17,9 @@ class Student
 
   def add_student_attributes(attributes_hash)
     self.send("name=", attributes_hash[:name])
-      
+    self.send("location=", attributes_hash[:locaiton])
+    self.send("profile_url=", attributes_hash[:profile_url])
+    self.new
   end
 
   def self.all
