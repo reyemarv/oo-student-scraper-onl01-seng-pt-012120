@@ -19,7 +19,7 @@ class Student
     self.send("name=", attributes_hash[:name])
     self.send("location=", attributes_hash[:locaiton])
     self.send("profile_url=", attributes_hash[:profile_url])
-    self.student.new(student_hash)
+    self
   end
 
   def self.all
